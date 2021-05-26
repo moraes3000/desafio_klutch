@@ -5,5 +5,16 @@
 }
 
 :root {
-    --cor1: #f8f8f8;
+    --cor-primaria: #228a95;
+    --cor-segundaria: #ef9c4b;
+    --cor-primaria-dark: #187680;
+    --cor-segundaria--dark: #fd8030;
+    --cor-font: #777;
+    --cor-bg: #f8f8f8;
 }
+
+body{
+    background: var(--cor-bg);
+    color: var(--cor-font);
+}
+
