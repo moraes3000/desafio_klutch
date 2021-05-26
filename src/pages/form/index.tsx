@@ -1,3 +1,4 @@
+import Button from "../../components/Button";
 import Input from "../../components/Input";
 
 export default function Form() {
@@ -15,6 +16,8 @@ export default function Form() {
                 <Input name='' placeholder='Cartão de crédito (Frente)' type='number' />
                 <Input name='' placeholder='selfie com o cartão de crédito' type='text' />
                 <p>Atenção: As fotos devem estar legíveis, com todas as informações visíveis do cartão</p>
+
+                <Button name='clicar' color='red' bg='blue'/>
             </div>
         </div>
 
