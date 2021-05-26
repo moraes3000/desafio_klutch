@@ -1,0 +1,28 @@
+.telaTabela{
+    table{
+        margin-top: 60px;
+        width:100%;
+        text-align:center;
+
+        th{
+            font-size:25px;
+            color:var(--cor-font);
+            font-weight: bold;
+            
+        }
+
+        td{
+            color:var(--cor-font);
+            padding:14px ;
+            background:#fff;
+        }
+    }
+    
+
+    h2{
+        text-align:center;
+        color:var(--cor-primaria);
+        font-size:38px;
+
+    }
+}
