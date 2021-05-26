@@ -1,0 +1,27 @@
+.container {
+    width:960px;
+    margin:auto;
+    margin-top:42px;
+
+    display: flex;
+    align-items: center;
+    // justify-content:center;
+
+    .plus{
+        width:66px;
+        height:66px;
+        margin-right: 40px;
+    }
+
+    .envelopeicon{
+        width:115px;
+        height:115px;
+        margin-right:40px;
+    }
+
+    h1{
+        color:var(--cor-primaria);
+        font-size:55px; 
+        width:250px;
+    }
+}

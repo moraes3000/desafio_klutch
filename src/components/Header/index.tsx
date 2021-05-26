@@ -1,9 +1,11 @@
 import styles  from './header.module.scss'
+import { IoMenu } from "react-icons/io5";
 
 export default function Header(){
     return (
         <header  className={styles.container}>
-            <h1>teste de header</h1>
+          <IoMenu width='44px'/>
+          <img src='logo.svg' alt='logo'/>
         </header>
     )
 }

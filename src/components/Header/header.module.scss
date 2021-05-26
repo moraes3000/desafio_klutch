@@ -1,6 +1,21 @@
 .container {
-    background: blue;
-    h1 {
-        color: red;
+    background: var(--cor-primaria);
+    height: 59px;
+    color: var(--cor-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    svg {
+        width: 44px;
+        height: 44px;
+        position: absolute;
+        left:20px;
+    }
+    img {
+        width: 120px;
+        height: 30px;
+        margin-left: center;
     }
 }
