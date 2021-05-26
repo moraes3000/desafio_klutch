@@ -15,8 +15,8 @@ const Button: React.FC<Props> = ({ name, bg, color, onClick, }) => {
         <button className={styles.button}
             onClick={onClick}
             style={{
-                backgroundColor: color,
-                color: bg,
+                backgroundColor: bg,
+                color: color,
             }}
         >
             {name}
