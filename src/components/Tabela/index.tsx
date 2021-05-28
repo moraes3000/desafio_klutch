@@ -1,7 +1,9 @@
 import styles from './tabela.module.scss'
 import ConteudoTabela from './conteudoTabela'
-
+import DadosApi from '../../service/api'
 export default function Tabela() {
+    const Lista = DadosApi.rateTable
+    
     return (
 
         <div className={styles.telaTabela}>
@@ -21,13 +23,32 @@ export default function Tabela() {
                         <th>Comissão Parceiro</th>
                     </tr>
                 </thead>
-                <tbody>
+              
+        
+                        {Lista.map(item => {
+                            return (
+                                               
+                                <>{item.installments.map(subitem => {
+                                    return (
+                                        <tr key={subitem.id}>
+                                            <td>{subitem.id}</td>
+                                            <td>{subitem.installmentValue}</td>
+                                            <td>{subitem.installmentInterest}</td>
+                                            <td>{subitem.fullValue}</td>
+                                            <td>{subitem.comission}</td>
+                                        </tr>
+                                    )
+                                })}</>
+                                
+                            )
+                        })}
+                   
 
-                    <ConteudoTabela />
-                </tbody>
+                   
+             
 
             </table>
-
+         
 
         </div>
 
