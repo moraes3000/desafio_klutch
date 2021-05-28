@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Footer from '../Footer'
 import Tabela from '../Tabela'
+import ConteudoTabela from '../Tabela/conteudoTabela'
 import Cabecalho from './cabecalho'
 import styles from './telaHome.module.scss'
 
@@ -35,6 +36,7 @@ export default function TelaHome() {
           <button type='submit'>Calcular</button>
         </form> 
       </div>
+      <Tabela />
       {/* <Footer /> */}
     </>
   )

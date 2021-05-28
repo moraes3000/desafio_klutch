@@ -23,9 +23,7 @@ export default function Tabela() {
                 </thead>
                 <tbody>
                     <ConteudoTabela />
-                    <ConteudoTabela />
-                    <ConteudoTabela />
-                    <ConteudoTabela />
+                  
                 </tbody>
             </table>
         </div>
