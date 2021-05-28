@@ -69,6 +69,17 @@ export default {
         "accountTypeLabel": "Conta Corrente",
         "accountNumber": "378282246310005"
       }
+    },
+    {
+      "id": 3,
+      "name": "cabeça de batata",
+      "phone": "71222222222",
+      "cpf": "12",
+      "bank": {
+        "label": "003 - Banco da Amazonia S.A.",
+        "accountTypeLabel": "Conta Corrente",
+        "accountNumber": "378282246310005"
+      }
     }
   ],
   "solicitation": [
