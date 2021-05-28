@@ -6,11 +6,12 @@ import DadosApi from '../../service/api'
 
 export default function ConteudoTabela() {
     // const dailyExpenses = [4, 7, 3, 5, 6, 4, 7];
+    // console.log(DadosApi.rateTable)
+
     console.log(DadosApi.rateTable)
 
-
-    const dailyExpenses = DadosApi.rateTable
-
+    const Lista = DadosApi.rateTable
+  
     return (
         <>
             {/* <Map collection={array} iteratee={i =>
@@ -22,28 +23,60 @@ export default function ConteudoTabela() {
                     <td>{i}</td>
                 </tr>} /> */}
 
-            <div>
 
+            {/* 
                 <tr>
                     {dailyExpenses.map(function (expense, index) {
                         return <tr key={index}>
                             <td>{expense.id}</td>
                             <td>{expense.name}</td>
-                   
+                           
                         </tr>;
                     })}
-                </tr>
+                </tr> */}
+            {/* {Lista.map(item => {
+                    return (
+                        <tr key={item.id}>
+                            <td>{item.id}</td>
+                            <td>{item.name}</td>
+                            <td>{item.installments.map(subitem=>{
+                                return (
+                                    <tr key={subitem.id}>{subitem.id}</tr>
+                                )
+                            })}</td>
+                        </tr>
+                    )
+                })} */}
 
-                {/* <ul>
+
+            {/* {Lista.map(item => {
+                    return (
+                        // <tr key={item.id}>                    
+                        <tr>{item.installments.map(subitem => {
+                            return (
+                                <tr key={subitem.id}>
+                                    <td>{subitem.id}</td>
+                                    <td>{subitem.installmentValue}</td>
+                                    <td>{subitem.installmentInterest}</td>
+                                    <td>{subitem.fullValue}</td>
+                                    <td>{subitem.comission}</td>
+                                </tr>
+                            )
+                        })}</tr>
+                        // </tr>
+                    )
+                })} */}
+
+
+
+            {/* <ul>
                     {dailyExpenses.map(function (expense, index) {
                         return <li key={index}>{expense}</li>;
                     })}
                     
                 </ul> */}
 
-            </div>
-
-
+        aa
         </>
 
 
