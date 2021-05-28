@@ -1,4 +1,6 @@
-export default [{
+// sugestao de api.json, voce pode modificar oq quiser desse objeto para facilitar os fluxos
+
+export default {
   "rateTable": [
     {
       "id": 1,
@@ -86,4 +88,3 @@ export default [{
     }
   ]
 }
-]

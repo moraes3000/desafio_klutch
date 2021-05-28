@@ -22,10 +22,13 @@ export default function Tabela() {
                     </tr>
                 </thead>
                 <tbody>
+
                     <ConteudoTabela />
-                  
                 </tbody>
+
             </table>
+
+
         </div>
 
     )
