@@ -72,7 +72,7 @@ export default {
     },
     {
       "id": 3,
-      "name": "cabeça de batata",
+      "name": "cabeça de",
       "phone": "71222222222",
       "cpf": "12",
       "bank": {

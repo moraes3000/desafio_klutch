@@ -36,7 +36,7 @@ export default function TelaHome() {
           <button type='submit'>Calcular</button>
         </form> 
       </div>
-      <Tabela />
+     
       {/* <Footer /> */}
     </>
   )

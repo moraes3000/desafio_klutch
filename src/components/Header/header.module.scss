@@ -6,16 +6,48 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    
+
     svg {
         width: 44px;
         height: 44px;
         position: absolute;
-        left:20px;
+        left: 20px;
+        top: 8px;
+        color: var(--cor-bg);
     }
     img {
         width: 120px;
         height: 30px;
         margin-left: center;
     }
+
+    .fechado{
+        display: none;
+    }
+    .aberto {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 58px;
+        background: var(--cor-primaria);
+        color: white;
+        height: 100vh;
+        width: 250px;
+        z-index: 99;
+
+        ul{
+            list-style: none;
+        }
+        li{
+            padding:15px;
+           a{
+            color: white;
+            text-decoration: none;
+            font-size:24px;
+           } 
+        }
+    }
 }
+
+
