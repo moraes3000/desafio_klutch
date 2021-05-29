@@ -18,25 +18,20 @@ interface ClienteProps {
 
 export default function Cliente() {
     const [usuarioCPF, setUsuarioCPF] = useState(0)
-    // const [usuario, setUsuario] = useState()
-    const [cliente, setCliente] = useState<ClienteProps[]>([]);
-
+    const [usuario, setUsuario] = useState('usuário não cadastrado')
 
     function verificaCPF(event) {
         event.preventDefault();
 
         const usuario = _.filter(Lista, { 'cpf': String(usuarioCPF) });
+        // console.log(usuario)
 
-      
-        // console.log(usuario);
-
-        // console.log(typeof (usuario));
-
-        // {Lista.map(item =>{
-        //    console.log(`${item.name} ${item.cpf} ${item.id}`)
-        // })}
-
-
+        if (usuario.length !== 0) {
+            setUsuario(usuario[0].name)
+        } else {
+            // return console.log('usuario não registrado')
+            setUsuario('usuário não cadastrado')
+        }
 
     }
 
@@ -44,7 +39,6 @@ export default function Cliente() {
     return (
 
         <>
-
 
             <div className={styles.container}>
                 <Cabecalho />
@@ -57,8 +51,8 @@ export default function Cliente() {
 
                 <div className={styles.detalhe}>
 
-                    <h2></h2>
-                    <h2 className={styles.cpf}>000.000.000-00</h2>
+                    <h2>{usuario}</h2>
+                    <h2 className={styles.cpf}>{usuarioCPF}</h2>
                     <button>Solicitar</button>
                 </div>
 
