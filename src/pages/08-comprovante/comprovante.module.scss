@@ -1,0 +1,45 @@
+.container {
+    max-width: 1060px;
+    margin: auto;
+}
+
+.row {
+    // background: blue;
+    // display: flex;
+    // flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    column-gap: 2rem;
+
+    padding: 15px;
+    margin: 15;
+
+    .conteudo {
+        // background: white;
+        padding: 15px;
+        margin: 15;
+        h2 {
+            background: white;
+            padding: 15px;
+        }
+        b {
+            color: var(--cor-primaria);
+        }
+
+        div {
+           
+
+            p {
+                background: white;
+                padding: 15px;
+                font-size: 29px;
+                text-align: center;
+                
+                b {
+                    color: #36ae30;
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+}

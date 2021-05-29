@@ -24,9 +24,9 @@ export default function Header() {
             <li><Link href='/04-modalidade'>04 -Modalidade</Link></li>
 
             <li><Link href='/05-formulario'>05 - Solicitar Emprestimo</Link></li>
-            <li><Link href='/'>06 - Solicitar Emprestimo</Link></li>
-            <li><Link href='/'>07 - emprestimo REalizado com sucesso</Link></li>
-            <li><Link href='/'>08 - Detalher</Link></li>
+            <li><Link href='/06-formulario'>06 - Solicitar Emprestimo detalhes</Link></li>
+            <li><Link href='/07-formulario'>07 - Emprestimo REalizado com sucesso</Link></li>
+            <li><Link href='/08-comprovante'>08 - Detalher</Link></li>
           </ul>
 
 

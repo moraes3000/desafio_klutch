@@ -124,7 +124,20 @@ O projeto deve ser entregue em um único arquivo compactado (zip, tar.gz, etc) o
 }
 ```
 
-**LINK DO Figma:** 
-***
-https://www.figma.com/file/zNME3cBBFhoAvojyhS4z82/desafio?node-id=0%3A1
+**LINK DO DRIVE:** 
 
+[https://drive.google.com/drive/folders/1uO9_P-r4Ujbo-A5M3rKHocun23X40V9i?usp=sharing](https://drive.google.com/drive/folders/1uO9_P-r4Ujbo-A5M3rKHocun23X40V9i?usp=sharing)
+***(OBS: No drive tem as telas do layout para você ter uma noção visual e replicar o layout, numeradas pela ordem do fluxo do desafio)***
+
+**LINK DO XD:**
+
+[https://xd.adobe.com/view/dbb459d7-d5e1-4d6f-8e1a-00d9a9fb6a32-8ee7/grid](https://xd.adobe.com/view/dbb459d7-d5e1-4d6f-8e1a-00d9a9fb6a32-8ee7/grid)
+
+***(OBS: O XD tem os layouts com o acesso dos icons e elementos para compor as telas do layout, além do protótipo com o fluxo. A tela: [Design System](https://xd.adobe.com/view/dbb459d7-d5e1-4d6f-8e1a-00d9a9fb6a32-8ee7/screen/d90bda84-25d8-4ef9-a3c5-c2073087fb0e)* é um mini Design System com os elementos e cores utilizadas no sistema para ajudá-lo na execução do desafio*).***
+
+[https://xd.adobe.com/view/dbb459d7-d5e1-4d6f-8e1a-00d9a9fb6a32-8ee7/screen/d90bda84-25d8-4ef9-a3c5-c2073087fb0e/specs/](https://xd.adobe.com/view/dbb459d7-d5e1-4d6f-8e1a-00d9a9fb6a32-8ee7/screen/d90bda84-25d8-4ef9-a3c5-c2073087fb0e/specs/)
+
+**LINK DO COGGLE:**
+[https://coggle.it/diagram/X_SVHsi-aSKloIM1/t/-/9423b0c199f9c5776418e088a35f8a8b925239e1c9ecd6830b3bbcdb4eb40c90](https://coggle.it/diagram/X_SVHsi-aSKloIM1/t/-/9423b0c199f9c5776418e088a35f8a8b925239e1c9ecd6830b3bbcdb4eb40c90)
+
+O Coggle documenta e detalha o fluxo do desafio, a fim de ajudá-lo à compreender o desafio e realizá-lo da melhor forma possível.

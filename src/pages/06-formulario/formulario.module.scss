@@ -1,0 +1,35 @@
+.container {
+    width: 960px;
+    margin: auto;
+
+    button {
+        text-align: center;
+    }
+
+    
+}
+
+.conteudo {
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    p {
+        font-size: 21px;
+        color: var(--cor-primaria);
+        margin-bottom: 15px;
+    }
+    input {
+        margin: 10px;
+    }
+}
+
+.footer{
+    margin:auto;
+    width:300px;
+    justify-items: center;
+    align-items: center;
+    button{
+        width:100%;
+    }
+}
+
